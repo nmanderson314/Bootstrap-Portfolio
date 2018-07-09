@@ -1,0 +1,160 @@
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    padding:  0px;
+    /* background:  blanchedalmond; */
+    /* background: blanchedalmond; */
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/qbkls.png);
+}
+
+header {
+    background-color:#ffffff;
+    /* padding: 40px; */
+    border-bottom-color: #cccccc;
+    border-bottom-width: thick;
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+.navbar {
+    /* margin: auto; */
+    /* width: 960px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin-right: 10px; */
+    height: 60px;
+    background-color:#ffffff;
+    /* padding: 40px; */
+    border-bottom-color: #cccccc;
+    border-bottom-width: thick;
+    /* height: 60px; */
+    margin-bottom: 40px;
+    padding: 0px;
+}
+.navbar-nav{
+    flex-direction: row;
+
+}
+
+.navbar-brand {
+    /* float: left; */
+    /* margin: 0px; */
+    background: #4aaaa5;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    padding: 24px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul {
+    float: right;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.nav-item {
+    display: inline-block;
+    list-style-type: none;
+    flex-direction: row;
+    /* padding-top: 20px; */
+}
+
+li a {
+    color: #777777;
+    text-decoration: none;
+    margin-right: 20px;
+    /* padding: 10px; */
+}
+
+section {
+    width: 960px;
+    clear: both;
+    margin: auto;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-width: thick;
+    padding: 20px;
+}
+
+h1 {
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #4aaaa5;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content{
+    /* margin-left: 10px; */
+    /* clear: both; */
+    overflow: auto;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 98.5%;
+    padding: 5px;
+}
+textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 98.5%;
+    padding: 5px;
+}
+button {
+    background: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding-top: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.profilepic {
+    height:200px;
+    float:left;
+    margin: 10px;
+    /* margin-bottom: 10px; */
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.col-sm-12,.col-sm-6,.col-sm-3{
+    padding:0px;
+}
